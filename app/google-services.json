@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "69051900862",
+    "firebase_url": "https://flo-app-b7857.firebaseio.com",
+    "project_id": "flo-app-b7857",
+    "storage_bucket": "flo-app-b7857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69051900862:android:d926957be350f5c4",
+        "android_client_info": {
+          "package_name": "com.example.flo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69051900862-vodnusr5f4ucugr9dvp2iirte4s1c1nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeyr4zTOazGoMc879xFfzVeU2tM7JoSVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69051900862-vodnusr5f4ucugr9dvp2iirte4s1c1nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

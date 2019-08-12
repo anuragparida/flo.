@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/memo"
+    android:layout_marginBottom="15dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/textview_placename_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <TextView
+            android:id="@+id/navigate_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:textStyle="bold"
+            android:textColor="#e6e6e6"
+            android:textSize="28sp"
+            android:layout_marginBottom="5dp"/>
+
+
+        <TextView
+            android:id="@+id/textview_submit_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submission"
+            android:textColor="#e6e6e6"
+            android:textSize="24sp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

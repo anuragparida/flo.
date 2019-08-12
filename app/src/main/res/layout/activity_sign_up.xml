@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp"
+    android:background="#000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/retro"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/flo1"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/med_edit_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:boxStrokeWidth="5dp"
+            app:boxBackgroundColor="#E6E6E6"
+            android:elevation="5dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_add_med"
+                android:hint="Username"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textColorHint="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="@color/colorPrimary"
+            app:boxStrokeWidth="5dp"
+            app:boxBackgroundColor="#E6E6E6"
+            android:elevation="5dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:hint="Password"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textColorHint="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="#000"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/signupbutton"
+            android:clickable="true"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

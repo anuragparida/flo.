@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">flo.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="subscription_key">21550d858d694560bb95f476f6e2a16a</string>
+    <string name="subscription_apiroot">https://westus.api.cognitive.microsoft.com/vision/v1.0</string>
+
+</resources>
